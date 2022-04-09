@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.welcome-area .header-text {
+    top: 60%;
+}
+
+.header-text .container .bd-example {
+    width: 100%;
+    height: 100%
+}
+
+.carousel-item {
+    background-color: black;
+    border-radius: 10px;
+    height: 450px;
+    width: 100%;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+    filter: alpha(opacity=50);
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.45;
+    width: 100%;
+}
+
+.modal-body__video-uber {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#DOWNLOAD {
+    width: 70%;
+    height: 70%;
+}
+
+#REGISTRO {
+    width: 90%;
+    height: 70%;
+}
+
+#login {
+    width: 70%;
+    height: 70%;
+}
