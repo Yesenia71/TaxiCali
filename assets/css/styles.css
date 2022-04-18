@@ -26,7 +26,6 @@
 .carousel-item img {
     border-radius: 10px;
     filter: alpha(opacity=50);
-    height: 100%;
     object-fit: cover;
     opacity: 0.45;
     width: 100%;
