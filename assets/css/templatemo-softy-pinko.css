@@ -813,7 +813,7 @@ welcome
     font-size: 36px;
     line-height: 54px;
     letter-spacing: 1.4px;
-    margin-bottom: 30px;
+    margin-bottom: -20px;
     color: #fff;
 }
 
@@ -868,22 +868,25 @@ welcome
         width: 100%;
     }
     .welcome-area .header-text {
-        top: 65% !important;
+        top: 80% !important;
         transform: perspective(1px) translateY(-60%) !important;
         text-align: center;
     }
-    .welcome-area .header-text h1 {
+    .welcome-area .header-text h1,
+    h5 {
         text-align: center;
         color: #fff;
-        margin-bottom: 15px;
+        margin-bottom: 110px;
+        margin-top: 125px;
     }
-    .welcome-area .header-text h1 span {
+    .welcome-area .header-text h1,
+    h5 span {
         color: #fff;
     }
     .welcome-area .header-text p {
         text-align: center;
         color: #fff;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .carousel-item img {
         border-radius: 10px;
