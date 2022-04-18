@@ -872,8 +872,13 @@ welcome
         transform: perspective(1px) translateY(-60%) !important;
         text-align: center;
     }
-    .welcome-area .header-text h1,
-    h5 {
+    .welcome-area .header-text h1 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 110px;
+        margin-top: -125px;
+    }
+    .welcome-area .header-text h5 {
         text-align: center;
         color: #fff;
         margin-bottom: 110px;
