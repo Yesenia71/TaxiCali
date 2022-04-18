@@ -877,7 +877,7 @@ welcome
         text-align: center;
         color: #fff;
         margin-bottom: 110px;
-        margin-top: 125px;
+        margin-top: -125px;
     }
     .welcome-area .header-text h1,
     h5 span {
